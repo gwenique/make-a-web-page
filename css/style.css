@@ -1,0 +1,93 @@
+/* This code gives the only <h1> on the page a white TEXT color */
+h1 {
+    color: white;
+}
+
+/* This code makes the <body> have a black BACKGROUND color. This rule would apply to all the elements inside of the <body> unless... */
+body {
+    background-color: black;
+}
+
+/* ...this code gives everything inside of the elements with class="lesson" a gray background color. Unless, of course... */
+.lesson {
+    background-color: gray;
+}
+
+/* ...an element inside has a class="concept" */
+.concept {
+    background-color: white;
+}
+
+/* This code sets the font size to 20 pixels, makes it bold, and centers it.*/
+.concept-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Since I had removed all the <em> tags from the HTML and replaced them with <span class="italic">, I needed to write this to have the "italic" class actually do something... */
+.italic {
+    font-style: italic;
+}
+
+/* ...I did something similar with the <b> tags*/
+.bold {
+    font-weight: bold;
+}
+/* This text color is specified in what's called "hex". You will learn more about this later. */
+h1 {
+    text-align: center;
+    color: #294860;
+}
+
+/* change to a nicer font */
+body {
+    font-family: Helvetica;
+}
+
+/* the border-radius attribute makes the corners rounded and the margin clears out space for the stuff inside the lesson divs. Try seeing what  happens when you comment out the rule that says
+
+    padding: 10px; 
+
+by changing it to
+
+    /* padding: 10px; */
+.lesson {
+    background-color: #294860;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+/* margins push other elements away */ 
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #294860;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
